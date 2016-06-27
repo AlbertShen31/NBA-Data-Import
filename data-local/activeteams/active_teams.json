@@ -1,0 +1,145 @@
+{
+
+	"season": "2015-16",
+	"teams": {
+
+		"ATL": {
+			"fullname": "Atlanta Hawks"
+		},
+
+		"BOS": {
+			"fullname": "Boston Celtics"
+		},
+
+		"BKN": {
+			"fullname": "Brooklyn Nets"
+		},
+
+		"CHA": {
+			"fullname": "Charlotte Hornets"
+		},
+
+		"CHI": {
+			"fullname": "Chicago Bulls"
+		},
+
+		"CLE": {
+			"fullname": "Cleveland Cavaliers"
+		},
+
+		"DAL": {
+			"fullname": "Dallas Mavericks"
+		},
+
+		"DEN": {
+			"fullname": "Denver Nuggets"
+		},
+
+		"DET": {
+			"fullname": "Detroit Pistons"
+		},
+
+		"GSW": {
+			"fullname": "Golden State Warriors"
+		},
+
+		"HOU": {
+			"fullname": "Houston Rockets"
+		},
+
+		"IND": {
+			"fullname": "Indiana Pacers"
+		},
+
+		"LAC": {
+			"fullname": "Los Angeles Clippers"
+		},
+
+		"LAL": {
+			"fullname": "Los Angeles Lakers"
+		},
+
+		"MEM": {
+			"fullname": "Memphis Grizzlies"
+		},
+
+		"MIA": {
+			"fullname": "Miami Heat"
+		},
+
+		"MIL": {
+			"fullname": "Milwaukee Bucks"
+		},
+
+		"MIN": {
+			"fullname": "Minnesota Timberwolves"
+		},
+
+		"NOP": {
+			"fullname": "New Orleans Pelicans"
+		},
+
+		"NYK": {
+			"fullname": "New York Knicks"
+		},
+
+		"OKC": {
+			"fullname": "Oklahoma City Thunder"
+		},
+
+		"ORL": {
+			"fullname": "Orlando Magic"
+		},
+
+		"PHI": {
+			"fullname": "Philadelphia 76ers"
+		},
+
+		"PHX": {
+			"fullname": "Phoenix Suns"
+		},
+
+		"POR": {
+			"fullname": "Portland Trail Blazers"
+		},
+
+		"SAC": {
+			"fullname": "Sacramento Kings"
+		},
+
+		"SAS": {
+			"fullname": "San Antonio Spurs"
+		},
+
+		"TOR": {
+			"fullname": "Toronto Raptors"
+		},
+
+		"UTA": {
+			"fullname": "Utah Jazz"
+		},
+
+		"WAS": {
+			"fullname": "Washington Wizards"
+		}
+
+	}
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
