@@ -61,8 +61,10 @@ for row in rows:
 	# iterate through all of the cells in the row
 	for i in range(0,4):
 		if(i == 1):
-			# >>>>> TODO: change values of the player names to get rid of comma and position following the name
-			output += (cells[i].get_text() + ", ")
+
+			name = cells[i].get_text()
+			name = name.split(',')[0]
+			output += (name + ", ")
 		elif(i == 3):
 			output += (cells[i].get_text().replace(',', '') + "\n")
 
