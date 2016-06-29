@@ -1,468 +1,478 @@
-RK,NAME,,SALARY
-1,Kobe Bryant, SF,"$23,500,000"
-2,Joe Johnson, SF,"$23,180,790"
-3,Carmelo Anthony, SF,"$22,458,401"
-4,Dwight Howard, C,"$21,436,271"
-5,Chris Bosh, PF,"$20,644,400"
-6,LeBron James, SF,"$20,644,400"
-7,Chris Paul, PG,"$20,068,563"
-8,Deron Williams, PG,"$19,754,465"
-9,Rudy Gay, SF,"$19,317,326"
-10,Kevin Durant, SF,"$18,995,624"
-RK,NAME,,SALARY
-11,Derrick Rose, PG,"$18,862,876"
-12,Blake Griffin, PF,"$17,674,613"
-13,Zach Randolph, PF,"$16,500,000"
-14,LaMarcus Aldridge, PF,"$16,006,000"
-15,Paul George, SF,"$15,937,290"
-16,Marc Gasol, C,"$15,829,688"
-17,Kevin Love, PF,"$15,719,063"
-18,Russell Westbrook, PG,"$15,719,062"
-19,Brook Lopez, C,"$15,719,062"
-20,David Lee, PF,"$15,012,000"
-RK,NAME,,SALARY
-21,Dwyane Wade, SG,"$15,000,000"
-22,Roy Hibbert, C,"$14,898,938"
-23,Eric Gordon, SG,"$14,898,938"
-24,Tyson Chandler, C,"$14,846,888"
-25,John Wall, PG,"$14,746,000"
-26,DeMarcus Cousins, C,"$14,746,000"
-27,James Harden, SG,"$14,728,844"
-28,Chandler Parsons, SF,"$14,700,000"
-29,Al Jefferson, C,"$13,500,000"
-30,Nene Hilario, C,"$13,000,000"
-RK,NAME,,SALARY
-31,Eric Bledsoe, PG,"$13,000,000"
-32,Andrew Bogut, C,"$12,972,973"
-33,Derrick Favors, PF,"$12,950,000"
-34,Rajon Rondo, PG,"$12,909,090"
-35,Joakim Noah, C,"$12,700,000"
-36,Tony Parker, PG,"$12,500,000"
-37,Serge Ibaka, PF,"$12,350,000"
-38,Andre Iguodala, SF,"$12,289,544"
-39,Nikola Pekovic, C,"$12,100,000"
-40,Kyle Lowry, PG,"$12,000,000"
-41,Al Horford, C,"$12,000,000"
-42,Nicolas Batum, SG,"$11,765,500"
-43,Ty Lawson, PG,"$11,595,506"
-44,Andrea Bargnani, C,"$11,500,000"
-45,DeAndre Jordan, C,"$11,440,123"
-46,Tyreke Evans, SG,"$11,265,416"
-47,JaVale McGee, C,"$11,250,000"
-48,Larry Sanders, C,"$11,000,000"
-49,Danilo Gallinari, SF,"$10,854,850"
-50,Stephen Curry, PG,"$10,629,213"
-RK,NAME,,SALARY
-51,Marcin Gortat, C,"$10,434,782"
-52,Tim Duncan, C,"$10,361,446"
-53,Gerald Wallace, SF,"$10,105,855"
-54,DeMar DeRozan, SG,"$10,100,000"
-55,Jrue Holiday, PG,"$9,904,495"
-56,Luol Deng, SF,"$9,714,461"
-57,Anderson Varejao, PF,"$9,704,545"
-58,Steve Nash, PG,"$9,701,000"
-59,Paul Millsap, PF,"$9,500,000"
-60,Thaddeus Young, PF,"$9,410,869"
-RK,NAME,,SALARY
-61,Tiago Splitter, C,"$9,250,000"
-62,Jeff Green, SF,"$9,200,000"
-63,Lance Stephenson, SF,"$9,000,000"
-64,Jordan Hill, C,"$9,000,000"
-65,Mike Conley, PG,"$8,694,216"
-66,Trevor Ariza, SF,"$8,579,089"
-67,Channing Frye, PF,"$8,579,088"
-68,Marcus Thornton, SF,"$8,575,000"
-69,Ryan Anderson, PF,"$8,491,500"
-70,Jeremy Lin, PG,"$8,374,646"
-RK,NAME,,SALARY
-71,Omer Asik, C,"$8,374,646"
-72,Monta Ellis, SG,"$8,360,000"
-73,George Hill, PG,"$8,000,000"
-74,Brandon Jennings, PG,"$8,000,000"
-75,Taj Gibson, PF,"$8,000,000"
-76,Dirk Nowitzki, PF,"$7,974,482"
-77,Ersan Ilyasova, PF,"$7,900,000"
-78,Tayshaun Prince, SF,"$7,707,865"
-79,Boris Diaw, C,"$7,500,000"
-80,Arron Afflalo, SG,"$7,500,000"
-81,Goran Dragic, PG,"$7,500,000"
-82,Wesley Matthews, SG,"$7,245,640"
-83,Isaiah Thomas, PG,"$7,238,606"
-84,Avery Bradley, PG,"$7,191,011"
-85,Pau Gasol, C,"$7,128,000"
-86,Jose Calderon, PG,"$7,097,191"
-87,Kyrie Irving, PG,"$7,070,730"
-88,Manu Ginobili, SG,"$7,000,000"
-89,Marvin Williams, PF,"$7,000,000"
-90,Amir Johnson, PF,"$7,000,000"
-RK,NAME,,SALARY
-91,Brandon Bass, PF,"$6,900,000"
-92,Kevin Martin, SG,"$6,792,500"
-93,JJ Redick, SG,"$6,792,500"
-94,Wilson Chandler, SF,"$6,757,913"
-95,Jason Richardson, SG,"$6,601,125"
-96,J.R. Smith, SG,"$6,515,510"
-97,Carl Landry, PF,"$6,500,000"
-98,Greivis Vasquez, PG,"$6,400,000"
-99,Derrick Williams, PF,"$6,331,404"
-100,Jarrett Jack, PG,"$6,300,000"
-RK,NAME,,SALARY
-101,Kyle Korver, SG,"$6,253,521"
-102,Landry Fields, SG,"$6,250,000"
-103,Robin Lopez, C,"$6,124,729"
-104,Jason Thompson, PF,"$6,037,500"
-105,Gerald Henderson, SG,"$6,000,000"
-106,Jodie Meeks, SG,"$6,000,000"
-107,Chuck Hayes, PF,"$5,958,750"
-108,Jason Terry, SG,"$5,850,313"
-109,Patrick Patterson, PF,"$5,831,326"
-110,P.J. Tucker, SF,"$5,700,000"
-RK,NAME,,SALARY
-111,Enes Kanter, C,"$5,694,674"
-112,Anthony Davis, PF,"$5,607,240"
-113,Anthony Bennett, PF,"$5,563,920"
-114,Andrew Wiggins, SG,"$5,510,640"
-115,Greg Monroe, C,"$5,479,934"
-116,Courtney Lee, SG,"$5,450,000"
-117,Louis Williams, SG,"$5,450,000"
-118,Jamal Crawford, SG,"$5,450,000"
-119,JJ Hickson, C,"$5,381,750"
-120,Martell Webster, SF,"$5,381,750"
-121,Chris Andersen, PF,"$5,375,000"
-122,Spencer Hawes, PF,"$5,305,000"
-123,Josh McRoberts, PF,"$5,305,000"
-124,Paul Pierce, SF,"$5,305,000"
-125,Nikola Mirotic, PF,"$5,305,000"
-126,Keith Bogans, SG,"$5,285,817"
-127,Zaza Pachulia, C,"$5,200,000"
-128,Tristan Thompson, C,"$5,138,430"
-129,Michael Kidd-Gilchrist, SF,"$5,016,960"
-130,Trevor Booker, PF,"$5,000,000"
-RK,NAME,,SALARY
-131,Brandan Wright, PF,"$5,000,000"
-132,Chase Budinger, SF,"$5,000,000"
-133,Nick Young, SF,"$4,994,420"
-134,Victor Oladipo, SG,"$4,978,200"
-135,Jabari Parker, PF,"$4,930,560"
-136,Luis Scola, PF,"$4,868,499"
-137,Tony Allen, SG,"$4,831,461"
-138,Chris Kaman, C,"$4,800,000"
-139,Darren Collison, PG,"$4,797,664"
-140,Kostas Papanikolaou, SF,"$4,797,664"
-RK,NAME,,SALARY
-141,Corey Brewer, SG,"$4,702,500"
-142,Ricky Rubio, PG,"$4,660,479"
-143,Andre Miller, PG,"$4,650,000"
-144,Timofey Mozgov, C,"$4,650,000"
-145,Bradley Beal, SG,"$4,505,280"
-146,Caron Butler, SF,"$4,500,000"
-147,Jonas Jerebko, PF,"$4,500,000"
-148,Otto Porter Jr., SF,"$4,470,480"
-149,Joel Embiid, C,"$4,427,640"
-150,Luc Richard Mbah a Moute, PF,"$4,382,576"
-RK,NAME,,SALARY
-151,Jared Dudley, SF,"$4,250,000"
-152,Kris Humphries, PF,"$4,250,000"
-153,C.J. Miles, SF,"$4,205,000"
-154,Thabo Sefolosha, SF,"$4,150,000"
-155,Dion Waiters, SG,"$4,062,000"
-156,Samuel Dalembert, C,"$4,051,527"
-157,Cody Zeller, C,"$4,030,560"
-158,Danny Green, SG,"$4,025,000"
-159,Mario Chalmers, PG,"$4,000,000"
-160,Ian Mahinmi, C,"$4,000,000"
-161,Aaron Gordon, PF,"$3,992,040"
-162,Mo Williams, PG,"$3,965,074"
-163,Vince Carter, SG,"$3,911,981"
-164,Kevin Seraphin, C,"$3,898,692"
-165,Devin Harris, PG,"$3,878,896"
-166,Bismack Biyombo, C,"$3,873,398"
-167,Patty Mills, PG,"$3,842,105"
-168,Joel Anthony, C,"$3,800,000"
-169,Raymond Felton, PG,"$3,793,693"
-170,Jonas Valanciunas, C,"$3,678,360"
-RK,NAME,,SALARY
-171,Thomas Robinson, PF,"$3,678,360"
-172,Marreese Speights, C,"$3,657,500"
-173,Alex Len, C,"$3,649,920"
-174,Dante Exum, PG,"$3,615,000"
-175,Brandon Knight, PG,"$3,553,917"
-176,Gerald Green, SF,"$3,500,000"
-177,Darrell Arthur, PF,"$3,457,149"
-178,Steve Novak, SF,"$3,445,947"
-179,Matt Barnes, SF,"$3,396,250"
-180,Mirza Teletovic, PF,"$3,368,100"
-RK,NAME,,SALARY
-181,Damian Lillard, PG,"$3,340,920"
-182,Mike Scott, PF,"$3,333,333"
-183,Tyler Hansbrough, PF,"$3,326,235"
-184,Andrei Kirilenko, SF,"$3,326,235"
-185,Mike Dunleavy, SG,"$3,326,235"
-186,Nerlens Noel, PF,"$3,315,120"
-187,Marcus Smart, PG,"$3,283,320"
-188,Alexey Shved, PG,"$3,282,056"
-189,Jason Smith, PF,"$3,278,000"
-190,Bojan Bogdanovic, SG,"$3,278,000"
-RK,NAME,,SALARY
-191,Evan Turner, SG,"$3,278,000"
-192,Kemba Walker, PG,"$3,272,091"
-193,Carlos Boozer, PF,"$3,251,000"
-194,Gary Neal, PG,"$3,250,000"
-195,Carlos Delfino, SG,"$3,250,000"
-196,Anthony Morrow, SG,"$3,200,000"
-197,Dorell Wright, SF,"$3,150,000"
-198,Quincy Pondexter, SF,"$3,146,068"
-199,Chris Copeland, F,"$3,135,000"
-200,Klay Thompson, SG,"$3,075,880"
-201,Harrison Barnes, SF,"$3,049,920"
-202,Alec Burks, SG,"$3,034,356"
-203,Ben McLemore, SG,"$3,026,280"
-204,Joel Freeland, C,"$3,013,512"
-205,Kosta Koufos, C,"$3,000,000"
-206,Randy Foye, SG,"$3,000,000"
-207,Anthony Tolliver, PF,"$3,000,000"
-208,D.J. Augustin, PG,"$3,000,000"
-209,Julius Randle, PF,"$2,997,360"
-210,Markieff Morris, PF,"$2,989,239"
-RK,NAME,,SALARY
-211,Furkan Aldemir, PF,"$2,963,232"
-212,Marcus Morris, PF,"$2,943,221"
-213,Will Bynum, PG,"$2,915,908"
-214,Kawhi Leonard, SF,"$2,894,059"
-215,Marco Belinelli, SG,"$2,873,750"
-216,Terrence Ross, SF,"$2,793,960"
-217,Kentavious Caldwell-Pope, SG,"$2,772,480"
-218,Nikola Vucevic, C,"$2,751,260"
-219,Luke Ridnour, PG,"$2,750,000"
-220,Nik Stauskas, SG,"$2,745,840"
-RK,NAME,,SALARY
-221,Udonis Haslem, PF,"$2,732,000"
-222,Brian Roberts, PG,"$2,732,000"
-223,Mike Miller, SG,"$2,732,000"
-224,Kirk Hinrich, SG,"$2,732,000"
-225,Iman Shumpert, SG,"$2,616,975"
-226,Andre Drummond, C,"$2,568,360"
-227,Trey Burke, PG,"$2,548,560"
-228,Noah Vonleh, PF,"$2,524,200"
-229,James Johnson, PF,"$2,500,000"
-230,DeMarre Carroll, SF,"$2,442,455"
-RK,NAME,,SALARY
-231,Austin Rivers, PG,"$2,439,840"
-232,Shelvin Mack, PG,"$2,433,333"
-233,C.J. McCollum, SG,"$2,421,000"
-234,Elfrid Payton, PG,"$2,397,840"
-235,Tobias Harris, SF,"$2,380,594"
-236,Meyers Leonard, PF,"$2,317,920"
-237,Michael Carter-Williams, PG,"$2,300,040"
-238,Doug McDermott, SF,"$2,277,960"
-239,Kenneth Faried, PF,"$2,249,768"
-240,Nick Collison, PF,"$2,242,003"
-241,Brendan Haywood, C,"$2,213,668"
-242,Reggie Jackson, PG,"$2,204,369"
-243,Jeremy Lamb, SG,"$2,202,000"
-244,Steven Adams, C,"$2,184,960"
-245,Vitor Faverani, C,"$2,090,000"
-246,Ramon Sessions, PG,"$2,077,000"
-247,Jordan Farmar, PG,"$2,077,000"
-248,C.J. Watson, PG,"$2,077,000"
-249,Danny Granger, SF,"$2,077,000"
-250,Josh Smith, C,"$2,077,000"
-RK,NAME,,SALARY
-251,Steve Blake, PG,"$2,077,000"
-252,Kelly Olynyk, C,"$2,075,760"
-253,Zach LaVine, PG,"$2,055,840"
-254,Norris Cole, PG,"$2,038,206"
-255,Cory Joseph, PG,"$2,023,261"
-256,Jimmy Butler, SG,"$2,008,748"
-257,John Salmons, SF,"$2,000,000"
-258,DeJuan Blair, C,"$2,000,000"
-259,Kent Bazemore, SF,"$2,000,000"
-260,John Henson, PF,"$1,987,320"
-RK,NAME,,SALARY
-261,Shabazz Muhammad, SF,"$1,971,960"
-262,T.J. Warren, SF,"$1,953,120"
-263,Maurice Harkless, SF,"$1,887,840"
-264,Giannis Antetokounmpo, SF,"$1,873,200"
-265,Adreian Payne, PF,"$1,855,320"
-266,Jeff Ayres, PF,"$1,828,750"
-267,Anthony Randolph, SF,"$1,825,359"
-268,Jeremy Evans, SF,"$1,794,871"
-269,Joffrey Lauvergne, C,"$1,790,281"
-270,Reggie Evans, C,"$1,768,653"
-RK,NAME,,SALARY
-271,Lucas Nogueira, C,"$1,762,680"
-272,Jusuf Nurkic, C,"$1,762,680"
-273,Luigi Datome, SF,"$1,750,000"
-274,Zoran Dragic, SG,"$1,706,225"
-275,Tyler Zeller, C,"$1,703,760"
-276,Dennis Schroder, PG,"$1,690,680"
-277,James Young, SG,"$1,674,480"
-278,Pablo Prigioni, PG,"$1,662,961"
-279,Ryan Kelly, PF,"$1,650,000"
-280,Terrence Jones, PF,"$1,618,680"
-281,Shane Larkin, PG,"$1,606,080"
-282,Tyler Ennis, PG,"$1,590,720"
-283,Andrew Nicholson, PF,"$1,545,840"
-284,Sergey Karasev, SG,"$1,533,840"
-285,Gary Harris, SG,"$1,519,200"
-286,Ronny Turiaf, C,"$1,500,000"
-287,Miroslav Raduljica, C,"$1,500,000"
-288,Evan Fournier, SG,"$1,483,920"
-289,Donatas Motiejunas, PF,"$1,483,920"
-290,Tony Snell, SF,"$1,472,400"
-RK,NAME,,SALARY
-291,Bruno Caboclo, SF,"$1,458,360"
-292,Scotty Hopson, SG,"$1,450,878"
-293,Willie Green, SG,"$1,448,490"
-294,Lamar Odom, PF,"$1,448,490"
-295,Mike James, PG,"$1,448,490"
-296,Jared Sullinger, C,"$1,424,520"
-297,Gorgui Dieng, C,"$1,413,480"
-298,Mitch McGary, PF,"$1,400,040"
-299,Victor Claver, PF,"$1,370,000"
-300,Mason Plumlee, C,"$1,357,080"
-RK,NAME,,SALARY
-301,Jordan Adams, SG,"$1,344,120"
-302,Melvin Ely, C,"$1,316,809"
-303,John Jenkins, SG,"$1,312,920"
-304,Josh Powell, PF,"$1,310,286"
-305,Ronnie Brewer, SF,"$1,310,286"
-306,Solomon Hill, SF,"$1,302,840"
-307,Rodney Hood, SG,"$1,290,360"
-308,Alan Anderson, SG,"$1,276,061"
-309,Tim Hardaway Jr., SG,"$1,250,640"
-310,Hasheem Thabeet, C,"$1,250,000"
-RK,NAME,,SALARY
-311,Pero Antic, PF,"$1,250,000"
-312,Shabazz Napier, PG,"$1,238,640"
-313,Aaron Gray, C,"$1,227,985"
-314,Shawne Williams, SF,"$1,227,985"
-315,Shavlik Randolph, PF,"$1,227,985"
-316,Tony Wroten, SG,"$1,210,080"
-317,Reggie Bullock, SF,"$1,200,720"
-318,Clint Capela, PF,"$1,189,200"
-319,Miles Plumlee, C,"$1,169,880"
-320,Andre Roberson, SG,"$1,160,880"
-321,P.J. Hairston, SF,"$1,149,720"
-322,Brandon Rush, SF,"$1,145,685"
-323,Hilton Armstrong, PF,"$1,145,685"
-324,Cartier Martin, PF,"$1,145,685"
-325,Arnett Moultrie, PF,"$1,136,160"
-326,Perry Jones, SF,"$1,129,200"
-327,Rudy Gobert, C,"$1,127,400"
-328,Marquis Teague, PG,"$1,120,920"
-329,Festus Ezeli, C,"$1,112,880"
-330,Archie Goodwin, SG,"$1,112,280"
-RK,NAME,,SALARY
-331,C.J. Wilcox, SG,"$1,109,760"
-332,Nemanja Nedovic, PG,"$1,104,240"
-333,Damjan Rudez, SF,"$1,100,000"
-334,Kyle Anderson, SF,"$1,093,680"
-335,Kyle Singler, SF,"$1,090,000"
-336,Xavier Henry, SG,"$1,082,000"
-337,Robert Covington, SF,"$1,000,000"
-338,Garrett Temple, SG,"$981,084"
-339,Ed Davis, C,"$981,084"
-340,Al-Farouq Aminu, SF,"$981,084"
-RK,NAME,,SALARY
-341,Alexis Ajinca, C,"$981,084"
-342,Luke Babbitt, SF,"$981,084"
-343,Jon Leuer, PF,"$967,500"
-344,Josh Harrellson, C,"$948,163"
-345,Joey Dorsey, PF,"$948,163"
-346,Donald Sloan, PG,"$948,163"
-347,E'Twaun Moore, SG,"$948,163"
-348,Drew Gooden, PF,"$915,243"
-349,Jason Maxiell, PF,"$915,243"
-350,Jeff Taylor, SF,"$915,243"
-RK,NAME,,SALARY
-351,Jannero Pargo, PG,"$915,243"
-352,Ryan Hollins, C,"$915,243"
-353,Nazr Mohammed, C,"$915,243"
-354,Sebastian Telfair, PG,"$915,243"
-355,Glen Davis, PF,"$915,243"
-356,Rashard Lewis, PF,"$915,243"
-357,Jae Crowder, SF,"$915,243"
-358,J.J. Barea, PG,"$909,859"
-359,Devyn Marble, SF,"$884,879"
-360,Jerami Grant, SF,"$884,879"
-361,Joe Harris, SG,"$884,879"
-362,Robbie Hummel, SF,"$880,000"
-363,Allen Crabbe, SG,"$862,000"
-364,Ish Smith, PG,"$861,405"
-365,Damien Inglis, SF,"$820,000"
-366,Isaiah Canaan, PG,"$816,842"
-367,Glen Rice Jr., SG,"$816,482"
-368,Troy Daniels, SG,"$816,482"
-369,Peyton Siva, PG,"$816,482"
-370,Nick Calathes, SG,"$816,482"
-RK,NAME,,SALARY
-371,Ray McCallum, PG,"$816,482"
-372,Carrick Felix, SG,"$816,482"
-373,Jeff Withey, C,"$816,482"
-374,Erik Jay Murphy, PF,"$816,482"
-375,Mike Muscala, PF,"$816,482"
-376,Hassan Whiteside, C,"$769,881"
-377,Jeff Adrien, SF,"$742,962"
-378,Jarnell Stokes, PF,"$725,000"
-379,Dante Cunningham, PF,"$716,043"
-380,Malcolm Lee, SG,"$710,659"
-RK,NAME,,SALARY
-381,Darius Morris, PG,"$702,756"
-382,Spencer Dinwiddie, PG,"$700,000"
-383,Malcolm Thomas, PF,"$635,827"
-384,Gal Mekel, PG,"$633,974"
-385,Johnny O'Bryant III, PF,"$600,000"
-386,Keith Appling, PG,"$507,336"
-387,Cleanthony Early, SF,"$507,336"
-388,Russ Smith, PG,"$507,336"
-389,Joe Ingles, SF,"$507,336"
-390,Sim Bhullar, C,"$507,336"
-RK,NAME,,SALARY
-391,Cory Jefferson, PF,"$507,336"
-392,Glenn Robinson III, SG,"$507,336"
-393,James Ennis, SF,"$507,336"
-394,Will Cherry, PG,"$495,399"
-395,Kalin Lucas, PG,"$486,446"
-396,Drew Gordon, C,"$468,540"
-397,Kenyon Martin, PF,"$414,551"
-398,Lou Amundson, PF,"$409,167"
-399,Lance Thomas, SF,"$403,784"
-400,Dahntay Jones, SG,"$387,632"
-401,Patrick Christopher, SG,"$379,010"
-402,Ronald Roberts Jr., PF,"$373,041"
-403,Reggie Williams, SF,"$344,036"
-404,Amar'e Stoudemire, PF,"$306,876"
-405,Lorenzo Brown, PG,"$283,367"
-406,Kendrick Perkins, C,"$274,573"
-407,John Lucas III, PG,"$269,189"
-408,Elijah Millsap, SG,"$241,731"
-409,Bernard James, C,"$236,886"
-410,Langston Galloway, SG,"$235,762"
-RK,NAME,,SALARY
-411,Tyler Johnson, SG,"$199,950"
-412,Henry Walker, SF,"$196,217"
-413,Michael Beasley, SF,"$195,440"
-414,Quincy Miller, SF,"$183,049"
-415,Earl Barron, C,"$183,049"
-416,James Michael McAdoo, SF,"$167,122"
-417,Jordan Hamilton, SG,"$150,591"
-418,JaMychal Green, PF,"$134,295"
-419,Elliot Williams, SG,"$107,676"
-420,Nate Robinson, PG,"$107,676"
-RK,NAME,,SALARY
-421,Toney Douglas, PG,"$107,676"
-422,Jorge Gutierrez, PG,"$96,056"
-423,Toure' Murry, SF,"$96,056"
-424,Bryce Cotton, PG,"$92,514"
-425,Jabari Brown, SG,"$59,686"
-426,Jack Cooley, SF,"$59,686"
-427,Tim Frazier, PG,"$59,686"
-428,Tyrus Thomas, PF,"$53,838"
-429,A.J. Price, PG,"$53,838"
-430,Austin Daye, SF,"$53,838"
-RK,NAME,,SALARY
-431,Seth Curry, SG,"$48,028"
-432,Ricky Ledo, SG,"$48,028"
-433,Andre Dawkins, SG,"$29,843"
-434,David Stockton, PG,"$29,483"
+NAME, SALARY
+Kobe Bryant, $23500000
+Joe Johnson, $23180790
+Carmelo Anthony, $22458401
+Dwight Howard, $21436271
+Chris Bosh, $20644400
+LeBron James, $20644400
+Chris Paul, $20068563
+Deron Williams, $19754465
+Rudy Gay, $19317326
+Kevin Durant, $18995624
+NAME, SALARY
+Derrick Rose, $18862876
+Blake Griffin, $17674613
+Zach Randolph, $16500000
+LaMarcus Aldridge, $16006000
+Paul George, $15937290
+Marc Gasol, $15829688
+Kevin Love, $15719063
+Russell Westbrook, $15719062
+Brook Lopez, $15719062
+David Lee, $15012000
+NAME, SALARY
+Dwyane Wade, $15000000
+Roy Hibbert, $14898938
+Eric Gordon, $14898938
+Tyson Chandler, $14846888
+John Wall, $14746000
+DeMarcus Cousins, $14746000
+James Harden, $14728844
+Chandler Parsons, $14700000
+Al Jefferson, $13500000
+Nene Hilario, $13000000
+NAME, SALARY
+Eric Bledsoe, $13000000
+Andrew Bogut, $12972973
+Derrick Favors, $12950000
+Rajon Rondo, $12909090
+Joakim Noah, $12700000
+Tony Parker, $12500000
+Serge Ibaka, $12350000
+Andre Iguodala, $12289544
+Nikola Pekovic, $12100000
+Kyle Lowry, $12000000
+NAME, SALARY
+Al Horford, $12000000
+Nicolas Batum, $11765500
+Ty Lawson, $11595506
+Andrea Bargnani, $11500000
+DeAndre Jordan, $11440123
+Tyreke Evans, $11265416
+JaVale McGee, $11250000
+Larry Sanders, $11000000
+Danilo Gallinari, $10854850
+Stephen Curry, $10629213
+NAME, SALARY
+Marcin Gortat, $10434782
+Tim Duncan, $10361446
+Gerald Wallace, $10105855
+DeMar DeRozan, $10100000
+Jrue Holiday, $9904495
+Luol Deng, $9714461
+Anderson Varejao, $9704545
+Steve Nash, $9701000
+Paul Millsap, $9500000
+Thaddeus Young, $9410869
+NAME, SALARY
+Tiago Splitter, $9250000
+Jeff Green, $9200000
+Lance Stephenson, $9000000
+Jordan Hill, $9000000
+Mike Conley, $8694216
+Trevor Ariza, $8579089
+Channing Frye, $8579088
+Marcus Thornton, $8575000
+Ryan Anderson, $8491500
+Jeremy Lin, $8374646
+NAME, SALARY
+Omer Asik, $8374646
+Monta Ellis, $8360000
+George Hill, $8000000
+Brandon Jennings, $8000000
+Taj Gibson, $8000000
+Dirk Nowitzki, $7974482
+Ersan Ilyasova, $7900000
+Tayshaun Prince, $7707865
+Boris Diaw, $7500000
+Arron Afflalo, $7500000
+NAME, SALARY
+Goran Dragic, $7500000
+Wesley Matthews, $7245640
+Isaiah Thomas, $7238606
+Avery Bradley, $7191011
+Pau Gasol, $7128000
+Jose Calderon, $7097191
+Kyrie Irving, $7070730
+Manu Ginobili, $7000000
+Marvin Williams, $7000000
+Amir Johnson, $7000000
+NAME, SALARY
+Brandon Bass, $6900000
+Kevin Martin, $6792500
+JJ Redick, $6792500
+Wilson Chandler, $6757913
+Jason Richardson, $6601125
+J.R. Smith, $6515510
+Carl Landry, $6500000
+Greivis Vasquez, $6400000
+Derrick Williams, $6331404
+Jarrett Jack, $6300000
+NAME, SALARY
+Kyle Korver, $6253521
+Landry Fields, $6250000
+Robin Lopez, $6124729
+Jason Thompson, $6037500
+Gerald Henderson, $6000000
+Jodie Meeks, $6000000
+Chuck Hayes, $5958750
+Jason Terry, $5850313
+Patrick Patterson, $5831326
+P.J. Tucker, $5700000
+NAME, SALARY
+Enes Kanter, $5694674
+Anthony Davis, $5607240
+Anthony Bennett, $5563920
+Andrew Wiggins, $5510640
+Greg Monroe, $5479934
+Courtney Lee, $5450000
+Louis Williams, $5450000
+Jamal Crawford, $5450000
+JJ Hickson, $5381750
+Martell Webster, $5381750
+NAME, SALARY
+Chris Andersen, $5375000
+Spencer Hawes, $5305000
+Josh McRoberts, $5305000
+Paul Pierce, $5305000
+Nikola Mirotic, $5305000
+Keith Bogans, $5285817
+Zaza Pachulia, $5200000
+Tristan Thompson, $5138430
+Michael Kidd-Gilchrist, $5016960
+Trevor Booker, $5000000
+NAME, SALARY
+Brandan Wright, $5000000
+Chase Budinger, $5000000
+Nick Young, $4994420
+Victor Oladipo, $4978200
+Jabari Parker, $4930560
+Luis Scola, $4868499
+Tony Allen, $4831461
+Chris Kaman, $4800000
+Darren Collison, $4797664
+Kostas Papanikolaou, $4797664
+NAME, SALARY
+Corey Brewer, $4702500
+Ricky Rubio, $4660479
+Andre Miller, $4650000
+Timofey Mozgov, $4650000
+Bradley Beal, $4505280
+Caron Butler, $4500000
+Jonas Jerebko, $4500000
+Otto Porter Jr., $4470480
+Joel Embiid, $4427640
+Luc Richard Mbah a Moute, $4382576
+NAME, SALARY
+Jared Dudley, $4250000
+Kris Humphries, $4250000
+C.J. Miles, $4205000
+Thabo Sefolosha, $4150000
+Dion Waiters, $4062000
+Samuel Dalembert, $4051527
+Cody Zeller, $4030560
+Danny Green, $4025000
+Mario Chalmers, $4000000
+Ian Mahinmi, $4000000
+NAME, SALARY
+Aaron Gordon, $3992040
+Mo Williams, $3965074
+Vince Carter, $3911981
+Kevin Seraphin, $3898692
+Devin Harris, $3878896
+Bismack Biyombo, $3873398
+Patty Mills, $3842105
+Joel Anthony, $3800000
+Raymond Felton, $3793693
+Jonas Valanciunas, $3678360
+NAME, SALARY
+Thomas Robinson, $3678360
+Marreese Speights, $3657500
+Alex Len, $3649920
+Dante Exum, $3615000
+Brandon Knight, $3553917
+Gerald Green, $3500000
+Darrell Arthur, $3457149
+Steve Novak, $3445947
+Matt Barnes, $3396250
+Mirza Teletovic, $3368100
+NAME, SALARY
+Damian Lillard, $3340920
+Mike Scott, $3333333
+Tyler Hansbrough, $3326235
+Andrei Kirilenko, $3326235
+Mike Dunleavy, $3326235
+Nerlens Noel, $3315120
+Marcus Smart, $3283320
+Alexey Shved, $3282056
+Jason Smith, $3278000
+Bojan Bogdanovic, $3278000
+NAME, SALARY
+Evan Turner, $3278000
+Kemba Walker, $3272091
+Carlos Boozer, $3251000
+Gary Neal, $3250000
+Carlos Delfino, $3250000
+Anthony Morrow, $3200000
+Dorell Wright, $3150000
+Quincy Pondexter, $3146068
+Chris Copeland, $3135000
+Klay Thompson, $3075880
+NAME, SALARY
+Harrison Barnes, $3049920
+Alec Burks, $3034356
+Ben McLemore, $3026280
+Joel Freeland, $3013512
+Kosta Koufos, $3000000
+Randy Foye, $3000000
+Anthony Tolliver, $3000000
+D.J. Augustin, $3000000
+Julius Randle, $2997360
+Markieff Morris, $2989239
+NAME, SALARY
+Furkan Aldemir, $2963232
+Marcus Morris, $2943221
+Will Bynum, $2915908
+Kawhi Leonard, $2894059
+Marco Belinelli, $2873750
+Terrence Ross, $2793960
+Kentavious Caldwell-Pope, $2772480
+Nikola Vucevic, $2751260
+Luke Ridnour, $2750000
+Nik Stauskas, $2745840
+NAME, SALARY
+Udonis Haslem, $2732000
+Brian Roberts, $2732000
+Mike Miller, $2732000
+Kirk Hinrich, $2732000
+Iman Shumpert, $2616975
+Andre Drummond, $2568360
+Trey Burke, $2548560
+Noah Vonleh, $2524200
+James Johnson, $2500000
+DeMarre Carroll, $2442455
+NAME, SALARY
+Austin Rivers, $2439840
+Shelvin Mack, $2433333
+C.J. McCollum, $2421000
+Elfrid Payton, $2397840
+Tobias Harris, $2380594
+Meyers Leonard, $2317920
+Michael Carter-Williams, $2300040
+Doug McDermott, $2277960
+Kenneth Faried, $2249768
+Nick Collison, $2242003
+NAME, SALARY
+Brendan Haywood, $2213668
+Reggie Jackson, $2204369
+Jeremy Lamb, $2202000
+Steven Adams, $2184960
+Vitor Faverani, $2090000
+Ramon Sessions, $2077000
+Jordan Farmar, $2077000
+C.J. Watson, $2077000
+Danny Granger, $2077000
+Josh Smith, $2077000
+NAME, SALARY
+Steve Blake, $2077000
+Kelly Olynyk, $2075760
+Zach LaVine, $2055840
+Norris Cole, $2038206
+Cory Joseph, $2023261
+Jimmy Butler, $2008748
+John Salmons, $2000000
+DeJuan Blair, $2000000
+Kent Bazemore, $2000000
+John Henson, $1987320
+NAME, SALARY
+Shabazz Muhammad, $1971960
+T.J. Warren, $1953120
+Maurice Harkless, $1887840
+Giannis Antetokounmpo, $1873200
+Adreian Payne, $1855320
+Jeff Ayres, $1828750
+Anthony Randolph, $1825359
+Jeremy Evans, $1794871
+Joffrey Lauvergne, $1790281
+Reggie Evans, $1768653
+NAME, SALARY
+Lucas Nogueira, $1762680
+Jusuf Nurkic, $1762680
+Luigi Datome, $1750000
+Zoran Dragic, $1706225
+Tyler Zeller, $1703760
+Dennis Schroder, $1690680
+James Young, $1674480
+Pablo Prigioni, $1662961
+Ryan Kelly, $1650000
+Terrence Jones, $1618680
+NAME, SALARY
+Shane Larkin, $1606080
+Tyler Ennis, $1590720
+Andrew Nicholson, $1545840
+Sergey Karasev, $1533840
+Gary Harris, $1519200
+Ronny Turiaf, $1500000
+Miroslav Raduljica, $1500000
+Evan Fournier, $1483920
+Donatas Motiejunas, $1483920
+Tony Snell, $1472400
+NAME, SALARY
+Bruno Caboclo, $1458360
+Scotty Hopson, $1450878
+Willie Green, $1448490
+Lamar Odom, $1448490
+Mike James, $1448490
+Jared Sullinger, $1424520
+Gorgui Dieng, $1413480
+Mitch McGary, $1400040
+Victor Claver, $1370000
+Mason Plumlee, $1357080
+NAME, SALARY
+Jordan Adams, $1344120
+Melvin Ely, $1316809
+John Jenkins, $1312920
+Josh Powell, $1310286
+Ronnie Brewer, $1310286
+Solomon Hill, $1302840
+Rodney Hood, $1290360
+Alan Anderson, $1276061
+Tim Hardaway Jr., $1250640
+Hasheem Thabeet, $1250000
+NAME, SALARY
+Pero Antic, $1250000
+Shabazz Napier, $1238640
+Aaron Gray, $1227985
+Shawne Williams, $1227985
+Shavlik Randolph, $1227985
+Tony Wroten, $1210080
+Reggie Bullock, $1200720
+Clint Capela, $1189200
+Miles Plumlee, $1169880
+Andre Roberson, $1160880
+NAME, SALARY
+P.J. Hairston, $1149720
+Brandon Rush, $1145685
+Hilton Armstrong, $1145685
+Cartier Martin, $1145685
+Arnett Moultrie, $1136160
+Perry Jones, $1129200
+Rudy Gobert, $1127400
+Marquis Teague, $1120920
+Festus Ezeli, $1112880
+Archie Goodwin, $1112280
+NAME, SALARY
+C.J. Wilcox, $1109760
+Nemanja Nedovic, $1104240
+Damjan Rudez, $1100000
+Kyle Anderson, $1093680
+Kyle Singler, $1090000
+Xavier Henry, $1082000
+Robert Covington, $1000000
+Garrett Temple, $981084
+Ed Davis, $981084
+Al-Farouq Aminu, $981084
+NAME, SALARY
+Alexis Ajinca, $981084
+Luke Babbitt, $981084
+Jon Leuer, $967500
+Josh Harrellson, $948163
+Joey Dorsey, $948163
+Donald Sloan, $948163
+E'Twaun Moore, $948163
+Drew Gooden, $915243
+Jason Maxiell, $915243
+Jeff Taylor, $915243
+NAME, SALARY
+Jannero Pargo, $915243
+Ryan Hollins, $915243
+Nazr Mohammed, $915243
+Sebastian Telfair, $915243
+Glen Davis, $915243
+Rashard Lewis, $915243
+Jae Crowder, $915243
+J.J. Barea, $909859
+Devyn Marble, $884879
+Jerami Grant, $884879
+NAME, SALARY
+Joe Harris, $884879
+Robbie Hummel, $880000
+Allen Crabbe, $862000
+Ish Smith, $861405
+Damien Inglis, $820000
+Isaiah Canaan, $816842
+Glen Rice Jr., $816482
+Troy Daniels, $816482
+Peyton Siva, $816482
+Nick Calathes, $816482
+NAME, SALARY
+Ray McCallum, $816482
+Carrick Felix, $816482
+Jeff Withey, $816482
+Erik Jay Murphy, $816482
+Mike Muscala, $816482
+Hassan Whiteside, $769881
+Jeff Adrien, $742962
+Jarnell Stokes, $725000
+Dante Cunningham, $716043
+Malcolm Lee, $710659
+NAME, SALARY
+Darius Morris, $702756
+Spencer Dinwiddie, $700000
+Malcolm Thomas, $635827
+Gal Mekel, $633974
+Johnny O'Bryant III, $600000
+Keith Appling, $507336
+Cleanthony Early, $507336
+Russ Smith, $507336
+Joe Ingles, $507336
+Sim Bhullar, $507336
+NAME, SALARY
+Cory Jefferson, $507336
+Glenn Robinson III, $507336
+James Ennis, $507336
+Will Cherry, $495399
+Kalin Lucas, $486446
+Drew Gordon, $468540
+Kenyon Martin, $414551
+Lou Amundson, $409167
+Lance Thomas, $403784
+Dahntay Jones, $387632
+NAME, SALARY
+Patrick Christopher, $379010
+Ronald Roberts Jr., $373041
+Reggie Williams, $344036
+Amar'e Stoudemire, $306876
+Lorenzo Brown, $283367
+Kendrick Perkins, $274573
+John Lucas III, $269189
+Elijah Millsap, $241731
+Bernard James, $236886
+Langston Galloway, $235762
+NAME, SALARY
+Tyler Johnson, $199950
+Henry Walker, $196217
+Michael Beasley, $195440
+Quincy Miller, $183049
+Earl Barron, $183049
+James Michael McAdoo, $167122
+Jordan Hamilton, $150591
+JaMychal Green, $134295
+Elliot Williams, $107676
+Nate Robinson, $107676
+NAME, SALARY
+Toney Douglas, $107676
+Jorge Gutierrez, $96056
+Toure' Murry, $96056
+Bryce Cotton, $92514
+Jabari Brown, $59686
+Jack Cooley, $59686
+Tim Frazier, $59686
+Tyrus Thomas, $53838
+A.J. Price, $53838
+Austin Daye, $53838
+NAME, SALARY
+Seth Curry, $48028
+Ricky Ledo, $48028
+Andre Dawkins, $29843
+David Stockton, $29483

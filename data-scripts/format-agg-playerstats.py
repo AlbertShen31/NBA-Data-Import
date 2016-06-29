@@ -2,7 +2,7 @@
 # output file is in ../data-local/agg-playerstats/
 
 # EXAMPLE:
-# python ../data-local/agg-playerstats_2015-16.json
+# python format-agg-playerstats.py ../data-local/agg-playerstats_2015-16.json
 
 import sys
 import json
@@ -190,7 +190,7 @@ for player in output['data']:
 
 		if(len(row) > 1):
 			# convert names to lowercase and remove non-alphanumeric characters
-			as_name = normalizeName(row[1])
+			as_name = normalizeName(row[0])
 			output_name = normalizeName(str(player['player_name']))
 
 			as_name = ''.join(as_name.split()).lower()
@@ -203,7 +203,7 @@ for player in output['data']:
 				prev_player = as_name
 				count += 1
 
-				player['salary'] = row[3]
+				player['salary'] = row[1]
 
 
 
