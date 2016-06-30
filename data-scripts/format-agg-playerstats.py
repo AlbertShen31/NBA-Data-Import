@@ -185,11 +185,14 @@ for player in output['data']:
 	contracts_file.seek(0)
 	
 	prev_player = None
+	print(str(player['player_name'])+' '+ str(count2))
 	# find the current player in per100 stats records
 	for row in contracts_reader:
-
+		
 		if(len(row) > 1):
 			# convert names to lowercase and remove non-alphanumeric characters
+			#print(as_name)
+			
 			as_name = normalizeName(row[0])
 			output_name = normalizeName(str(player['player_name']))
 
@@ -202,7 +205,6 @@ for player in output['data']:
 			if(as_name == output_name and prev_player != as_name):
 				prev_player = as_name
 				count += 1
-
 				player['salary'] = row[1]
 
 

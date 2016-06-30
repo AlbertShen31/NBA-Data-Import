@@ -77,6 +77,9 @@ while True:
 			elif(i == 3):
 				output += (cells[i].get_text().replace(',', '') + "\n")
 	pagenum+=1
+	time.sleep(2)
+	print('waiting for 2 seconds... ')
+
 
 
 
