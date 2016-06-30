@@ -69,10 +69,13 @@ output['data'] = []
 with open('../data-local/activeplayers/activeplayers_' + season + '.json') as activeplayers_file:
 	activeplayers = json.load(activeplayers_file)
 
+#print("ACTIVE PLAYERS: " + str(len(activeplayers['data'])))
+
 # loop through the activeplayers file, take the team info and add team/other info for each player obj
 for player in agg_playerstats['data']:
 	playerid = player['player_id'];
 	new_playerobj = player;
+	print(player['player_name'])
 
 	# find the current player in active player records 
 	for playerprofile in activeplayers['resultSets'][0]['rowSet']:
@@ -185,14 +188,13 @@ for player in output['data']:
 	contracts_file.seek(0)
 	
 	prev_player = None
-	print(str(player['player_name'])+' '+ str(count2))
+
 	# find the current player in per100 stats records
 	for row in contracts_reader:
 		
 		if(len(row) > 1):
 			# convert names to lowercase and remove non-alphanumeric characters
-			#print(as_name)
-			
+
 			as_name = normalizeName(row[0])
 			output_name = normalizeName(str(player['player_name']))
 

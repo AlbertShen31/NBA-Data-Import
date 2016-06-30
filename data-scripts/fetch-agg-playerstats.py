@@ -18,27 +18,22 @@ import time
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
+ids = []
 
 if len(sys.argv) < 3:
 	print "ERROR: must provide the current season and season type as arguments"
 	sys.exit(2)
 
 else:
-	request_url = "http://stats.nba.com/stats/commonallplayers?IsOnlyCurrentSeason=1&LeagueID=00&"
-	season = sys.argv[1]
-	# print(request_url + "Season=" + season);
-
 
 	if len(sys.argv) == 3:
 		# get me all active players for the specified season
-		url_allPlayers = (request_url + "Season=" + season) 		
-		response = requests.get(url_allPlayers, headers=headers)
-		response.raise_for_status()
-		
-		# get an array of ids for active players in the given season
-		players = response.json()['resultSets'][0]['rowSet']
-		ids = [players[i][0] for i in range(0, len(players))]
-		# print(ids);
+		with open("../data-local/activeplayers/activeplayers_" + sys.argv[1] + ".json") as json_file:
+			jsonobj = json.load(json_file)
+
+		for player in jsonobj['resultSets'][0]['rowSet']:
+			ids.append(player[0])
+
 	else:
 		ids = sys.argv[3].split(",")
 
@@ -96,9 +91,9 @@ else:
 
 		output['data'].append(player_obj)
 
-		# wait for 3 seconds before fetching the next player
-		time.sleep(3)
-		print('waiting for 3 seconds... ')
+		# wait for 2 seconds before fetching the next player
+		time.sleep(2)
+		print('waiting for 2 seconds... ')
 
 
 		# write to partial file
