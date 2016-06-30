@@ -12,7 +12,7 @@ if len(sys.argv) < 2:
 	print "ERROR: must provide the current season as an argument"
 	sys.exit(2)
 else:
-	request_url = "http://stats.nba.com/stats/commonallplayers?IsOnlyCurrentSeason=1&LeagueID=00&"
+	request_url = "http://stats.nba.com/stats/commonallplayers?IsOnlyCurrentSeason=0&LeagueID=00&"
 	season = sys.argv[1]
 	# print(request_url + "Season=" + season);
 
@@ -24,6 +24,27 @@ else:
 	#request url and parse the JSON
 	response = requests.get(url_allPlayers, headers=headers)
 
+	jsonobj = response.json()
+
+	beginyr = int(season[:4])
+	endyr = beginyr + 1
+	print("beginyr : " + str(beginyr))
+	print("endyr : " + str(endyr))
+
+	output = {}
+	output['resource'] = "activeplayers"
+	output['resultSets'] = []
+	output['resultSets'].append({})
+	output['resultSets'][0]['rowSet'] = []
+
+
+	for player in jsonobj['resultSets'][0]['rowSet']:
+		startseason = int(player[4])
+		endseason = int(player[5])
+		if(startseason <= beginyr and endseason >= endyr):
+			output['resultSets'][0]['rowSet'].append(player)
+
+
 	with open('../data-local/activeplayers/activeplayers_' + season + '.json', 'w') as outfile:
-	    json.dump(response.json(), outfile)
+	    json.dump(output, outfile)
 
