@@ -16,8 +16,10 @@ from bs4 import BeautifulSoup
 
 def main(endyear):
 
-	season = str(int(endyear)-1) + "-" + str(int(endyear) % 100)
-
+	if (endyear<10):
+		season = str(int(endyear)-1) + "-" +'0'+ str(int(endyear) % 100)
+	else:
+		season = str(int(endyear)-1) + "-" + str(int(endyear) % 100)
 
 	# user agent header -- set to mozilla firefox browser
 	headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
@@ -87,12 +89,12 @@ def main(endyear):
 	print(output)
 
 	# check if directory exists and create it if it doesn't
-	if not os.path.exists('../data-local/input/' + season + '/'):
-		os.makedirs('../data-local/input/' + season + '/')
+	if not os.path.exists('../data-local/input/' + str(int(endyear)-1) + "-" +'0'+ str(int(endyear) % 100) + '/'):
+		os.makedirs('../data-local/input/' + str(int(endyear)-1) + "-" +'0'+ str(int(endyear) % 100) + '/')
 
 
 	#csvfile = open('../data-local/salaries/salaries_' + season + '.csv', 'w')
-	csvfile = open('../data-local/input/' + season + '/nba_' + season + '_playercontracts.csv','w')
+	csvfile = open('../data-local/input/' + str(int(endyear)-1) + "-" +'0'+ str(int(endyear) % 100) + '/nba_' + str(int(endyear)-1) + "-" +'0'+ str(int(endyear) % 100) + '_playercontracts.csv','w')
 	csvfile.write(output)
 
 
