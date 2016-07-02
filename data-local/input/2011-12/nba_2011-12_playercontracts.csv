@@ -79,8 +79,8 @@ NAME, SALARY
 Thaddeus Young, $8039130
 Shawn Marion, $8022449
 Caron Butler, $8000000
-Kris Humphries, $8000000
 Kirk Hinrich, $8000000
+Kris Humphries, $8000000
 Mark Blount, $7967375
 Andre Miller, $7807728
 Arron Afflalo, $7750000
@@ -120,8 +120,8 @@ Glen Davis, $6300000
 Tayshaun Prince, $6292135
 Michael Beasley, $6262347
 NAME, SALARY
-Drew Gooden, $6226200
 Al Harrington, $6226200
+Drew Gooden, $6226200
 Jermaine O'Neal, $6226200
 Francisco Garcia, $6100000
 Channing Frye, $6000000
@@ -148,8 +148,8 @@ Louis Williams, $5176000
 Kyrie Irving, $5144280
 Hasheem Thabeet, $5127720
 Russell Westbrook, $5082416
-Luc Richard Mbah a Moute, $5000000
 Jamal Crawford, $5000000
+Luc Richard Mbah a Moute, $5000000
 Jarrett Jack, $5000000
 Jason Maxiell, $5000000
 NAME, SALARY
@@ -408,16 +408,16 @@ Marcus Haislip, $855189
 NAME, SALARY
 Quincy Douby, $855189
 Tarence Kinsey, $855189
-Derrick Byars, $854389
 Kenny Thomas, $854389
-Luke Jackson, $854389
 Josh Davis, $854389
 Kyle Weaver, $854389
-Darius Miles, $854389
-Javaris Crittenton, $854389
+Luke Jackson, $854389
+Derrick Byars, $854389
 Damien Wilkins, $854389
-NAME, SALARY
+Javaris Crittenton, $854389
 Jannero Pargo, $854389
+NAME, SALARY
+Darius Miles, $854389
 Chase Budinger, $854389
 Etan Thomas, $854389
 Chandler Parsons, $850000
@@ -425,8 +425,8 @@ Solomon Alabi, $830000
 Michael Redd, $826828
 Desmond Mason, $825497
 Paul Davis, $825497
-Kevin Ollie, $825497
 Ryan Bowen, $825497
+Kevin Ollie, $825497
 NAME, SALARY
 Jason Hart, $825497
 Gabe Pruitt, $825497
@@ -436,10 +436,10 @@ Chris Quinn, $804131
 Sean Marks, $799105
 Ike Diogu, $792377
 Solomon Jones, $792377
-Da'Sean Butler, $788872
 Robert Vaden, $788872
-NAME, SALARY
 Marcus Cousin, $788872
+NAME, SALARY
+Da'Sean Butler, $788872
 Andy Rautins, $788872
 Zabian Dowdell, $788872
 Terrico White, $788872
@@ -451,17 +451,16 @@ Yi Jianlian, $771706
 Tony Gaffney, $762195
 NAME, SALARY
 Hamady Ndiaye, $762195
-Greg Stiemsma, $762195
 Taylor Griffin, $762195
 Jeremy Lin, $762195
 Landry Fields, $762195
-Samardo Samuels, $762195
-Semih Erden, $762195
 Luke Harangody, $762195
+Chris Johnson, $762195
+Samardo Samuels, $762195
 Isaiah Thomas, $762195
 Dexter Pittman, $762195
-NAME, SALARY
 Mike Taylor, $736420
+NAME, SALARY
 Joe Crawford, $736420
 Sun Yue, $736420
 Walter Sharpe, $736420
@@ -471,8 +470,8 @@ Othello Hunter, $736420
 Ime Udoka, $708640
 Mike Wilks, $679821
 Brian Skinner, $668434
-NAME, SALARY
 Allen Iverson, $650686
+NAME, SALARY
 Jeremy Tyler, $650000
 Acie Law, $633253
 Josh Selby, $550000
@@ -482,17 +481,18 @@ Jason Williams, $524964
 Ish Smith, $522472
 Travis Leslie, $500000
 Malcolm Lee, $500000
-NAME, SALARY
 Ryan Reid, $475000
-Sherron Collins, $473604
-Mychel Thompson, $473604
+NAME, SALARY
+Pooh Jeter, $473604
+Stanley Robinson, $473604
 Charles Jenkins, $473604
-Josh Harrellson, $473604
 Cory Higgins, $473604
+Sherron Collins, $473604
 Shelvin Mack, $473604
+Jordan Williams, $473604
 Brian Zoubek, $473604
-Darius Morris, $473604
 Greg Smith, $473604
+Justin Harper, $473604
 NAME, SALARY
 Carldell Johnson, $473604
 Marcus Landry, $457588

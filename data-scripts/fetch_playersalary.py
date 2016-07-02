@@ -34,7 +34,7 @@ def main(endyear):
 	# "http://espn.go.com/nba/salaries/_/year/[year]/page/2/seasontype/3"
 	while True:
 
-		request_url = "http://espn.go.com/nba/salaries/_/year/" + endyear + "/page/" + str(pagenum) + "/seasontype/3"
+		request_url = "http://espn.go.com/nba/salaries/_/year/" + str(endyear) + "/page/" + str(pagenum) + "/seasontype/3"
 		print("downloading... " + request_url)
 
 
