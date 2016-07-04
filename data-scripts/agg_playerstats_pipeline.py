@@ -1,6 +1,6 @@
 # Executes all of the python scripts
 
-# USAGE: python datapipeline [years] [season-type]
+# USAGE: python agg_playerstats_pipeline.py [years] [season-type]
 
 # EXAMPLE: (list of players)
 # python fetch-agg-playerstats.py 2015-16 'Regular Season' '203092,203112'

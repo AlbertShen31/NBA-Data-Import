@@ -31,7 +31,7 @@ def main(endyear):
 	# for all pages in the table: 
 	output = ""
 
-	# (1) construc URL to download
+	# (1) construct URL to download
 	# request URL format:
 	# "http://espn.go.com/nba/salaries/_/year/[year]/page/2/seasontype/3"
 	while True:
