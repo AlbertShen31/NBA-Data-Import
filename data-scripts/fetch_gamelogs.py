@@ -10,6 +10,7 @@ import urllib2
 from bs4 import BeautifulSoup
 import re
 import os.path
+import time
 
 
 ##### function for resolving names #####
@@ -147,6 +148,10 @@ else:
 	name = None
 
 
+# user agent header -- set to mozilla firefox browser
+request_headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+
+
 
 # loop through each year specified in the range
 while (int(sys.argv[1][2:4]) < int(endyr)):
@@ -188,15 +193,16 @@ while (int(sys.argv[1][2:4]) < int(endyr)):
 			displayname = player_name.split(' ')[0].title() + " " + player_name.split(' ')[1].title()
 			season_endyr = '20'+str(endyr)
 
-			print("PLAYERNAME: " + playername + "\n")
-			print("SEASONENDYR: " + season_endyr + "\n")
+			print("\nPLAYERNAME: " + playername)
+			print("SEASONENDYR: " + season_endyr)
 
 			# (1) construct request url
 			request_url = "http://www.basketball-reference.com/players/" + playername[0] + "/" + playername + "/gamelog/" + season_endyr + "/";
 			print("downloading... " + request_url)
+			request = urllib2.Request(request_url, headers=request_headers)
 
 			# (2) download page as HTML file
-			response = urllib2.urlopen(request_url)
+			response = urllib2.urlopen(request)
 			content = response.read()
 
 			# (3) extract table from HTML document 
@@ -234,6 +240,11 @@ while (int(sys.argv[1][2:4]) < int(endyr)):
 			# write output to a json file
 			with open('../data-local/gamelogs/' + str(player_id) + '.json', 'w') as outfile:
 				json.dump(output, outfile)
+
+			# wait for 2 seconds before fetching the next player
+			time.sleep(2)
+			print('(waiting for 2 seconds before fetching next player...)')
+
 
 		else:
 			print("FILE ALREADY EXISTS FOR " + str(player_id) + ", SKIPPING")

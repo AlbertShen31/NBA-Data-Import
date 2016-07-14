@@ -22,7 +22,7 @@ def main(endyear):
 		season = str(int(endyear)-1) + "-" + str(int(endyear) % 100)
 
 	# user agent header -- set to mozilla firefox browser
-	headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+	request_headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
 
 	# current page number in the table
@@ -38,10 +38,10 @@ def main(endyear):
 
 		request_url = "http://espn.go.com/nba/salaries/_/year/" + str(endyear) + "/page/" + str(pagenum) + "/seasontype/3"
 		print("downloading... " + request_url)
-
+		request = urllib2.Request(request_url, headers=request_headers)
 
 		# (2) download page as HTML file
-		response = urllib2.urlopen(request_url)
+		response = urllib2.urlopen(request)
 		content = response.read()
 
 
