@@ -1,9 +1,3 @@
-# USAGE:
-# python fetch_gamelogs.py [player name (underscore separated)] 
-
-# EXAMPLE python fetch_gamelogs.py 2015-16 steph_curry
-
-
 import sys
 import json
 import urllib2
@@ -141,18 +135,21 @@ def formatName(name):
 
 # get user provided arguments
 endyr = sys.argv[1][5:]
+doAll = True
 
-if(len(sys.argv) == 3):
-	name = sys.argv[2]
+if(len(sys.argv) > 2):
+	name = sys.argv[2].split('_')[0] + ' ' + sys.argv[2].split('_')[1]
+	doAll = False
 else:
 	name = None
+
 
 
 # user agent header for all http requests -- set to mozilla firefox browser
 request_headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
 # loop through each year specified in the range
-while (int(sys.argv[1][2:4]) < int(endyr)):
+while (int(sys.argv[1][2:4]) < int(endyr)) and doAll:
 
 	season = '20'+str(int(endyr)-1)+'-'+str(endyr)
 
@@ -227,7 +224,11 @@ while (int(sys.argv[1][2:4]) < int(endyr)):
 				content = BeautifulSoup(content, "html.parser")
 
 				table = content.find("table", {"class":"sortable row_summable stats_table"})
-				rows = table.find_all("tr");
+				try:
+  					rows = table.find_all("tr");
+				except AttributeError: 
+  					print('Player did not play for ' + datekey + ' season')
+  					rows = ''
 
 
 				# (4) iterate over rows and get cell values
@@ -241,9 +242,14 @@ while (int(sys.argv[1][2:4]) < int(endyr)):
 					game_arr = []
 
 					if(cells and len(cells) > 9):
-						for i in range(0,30):
-							cellvalue = cells[i].get_text()
-							game_arr.append(cellvalue)
+						try:
+							for i in range(0,30):
+								cellvalue = cells[i].get_text()
+								game_arr.append(cellvalue)
+						except:
+							for i in range(0,29):
+								cellvalue = cells[i].get_text()
+								game_arr.append(cellvalue)
 
 					elif(cells and len(cells) == 9):
 						for i in range(0,9):
@@ -266,8 +272,116 @@ while (int(sys.argv[1][2:4]) < int(endyr)):
 			print("FILE ALREADY EXISTS FOR " + str(player_id) + ", SKIPPING")
 
 
-	endyr-=1
+	endyr = int(endyr) - 1
 
 
+#Downloads gamelogs for one player
+if not (doAll):
+	season = '20'+str(int(endyr)-1)+'-'+str(endyr)
+
+	# get activeplayers list from the activeplayers_file (stored locally)
+	with open('../data-local/activeplayers/activeplayers_' + season + '.json') as activeplayers_file:
+		activeplayers = json.load(activeplayers_file)
 
 
+	# loop through all players in the activeplayers file
+	for player in activeplayers['resultSets'][0]['rowSet']:
+
+		player_id = player[0]
+		player_name = player[2].lower()
+		player_start = str(int(player[4])+1)
+		player_end = player[5]
+
+		# get a list of years between start and end (inclusive)
+		player_yearrange = range(int(player_start), int(player_end)+1)
+
+		# check if file already exists in filesystem for this player
+		if not os.path.isfile("../data-local/gamelogs/" + str(player_id) + ".json") and name == player_name:
+
+			player_name = formatName(player_name)
+
+			# hard coded player name cases
+			if(player_name == 'nene'):
+				player_name = 'nene hilario'
+			elif(player_name == 'jose juan barea'):
+				player_name = 'josejuan barea'
+			elif(player_name == 'luc mbah a moute'):
+				player_name = 'luc mbahamoute'
+			elif(player_name == 'james michael mcadoo'):
+				player_name = 'jamesmichael mcadoo'
+			
+			playername = matchNames(player_name)
+			
+
+			# parse arguments
+			displayname = player_name.split(' ')[0].title() + " " + player_name.split(' ')[1].title()
+			season_endyr = '20'+str(endyr)
+
+			print("\nPLAYERNAME: " + playername)
+			print("RANGE: " + player_start + "-" + player_end)
+
+
+			# output object
+			output = {}
+			output['player_name'] = displayname
+			output['player_id'] = player_id
+			output['seasons_played'] = player_yearrange
+
+
+			# iterate through all seasons that the current player has played in
+			for currentyear in player_yearrange:
+
+				datekey = str(currentyear-1) + "-" + str(currentyear)[-2:]
+				output[datekey] = []
+
+				# (1) construct request url
+				request_url = "http://www.basketball-reference.com/players/" + playername[0] + "/" + playername + "/gamelog/" + str(currentyear) + "/";
+				print("--> downloading... " + request_url)
+				request = urllib2.Request(request_url, headers=request_headers)
+
+				# (2) download page as HTML file
+				response = urllib2.urlopen(request)
+				content = response.read()
+
+				# (3) extract table from HTML document 
+				# content = BeautifulSoup(content)
+				content = BeautifulSoup(content, "html.parser")
+
+				table = content.find("table", {"class":"sortable row_summable stats_table"})
+				try:
+  					rows = table.find_all("tr");
+				except AttributeError: 
+  					print('Player did not play for ' + datekey + ' season')
+  					rows = ''
+
+
+				# (4) iterate over rows and get cell values
+				print("length: " + str(len(rows)) + "\n")
+
+				
+				for row in rows:
+
+					# get cells in the row
+					cells = row.find_all("td")
+					game_arr = []
+					if(cells and len(cells) > 9):
+						try:
+							for i in range(0,30):
+								cellvalue = cells[i].get_text()
+								game_arr.append(cellvalue)
+						except:
+							for i in range(0,29):
+								cellvalue = cells[i].get_text()
+								game_arr.append(cellvalue)
+
+					elif(cells and len(cells) == 9):
+						for i in range(0,9):
+							cellvalue = cells[i].get_text()
+							game_arr.append(cellvalue)
+
+					output[datekey].append(game_arr)
+
+
+			# write output to a json file
+			with open('../data-local/gamelogs/' + str(player_id) + '.json', 'w') as outfile:
+				json.dump(output, outfile)
